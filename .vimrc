@@ -10,6 +10,7 @@ Plug 'tpope/vim-vinegar'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'pearofducks/ansible-vim'
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 "       seoul256
