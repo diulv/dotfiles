@@ -18,7 +18,7 @@ call plug#end()
 colo seoul256
 set background=dark
 
-"	vim-tbone
+"	      vim-tbone
 " set ty and tp to yank and paste from tmux register 
 noremap ty <cr>:Tyank<cr>
 noremap tp <cr>:Tput<cr>
@@ -28,6 +28,9 @@ let g:airline_theme='zenburn'
 
 " Show line number for current line and relative numbering for other lines
 :set nu rnu
+
+" backspace over everything in insert mode
+set backspace=indent,eol,start
 
 nnoremap Y y$
 
