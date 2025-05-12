@@ -34,3 +34,8 @@ alias ll='ls -alF'
 # set hostname of window to ssh in tmux
 # Make short hostname only if its not an IP address
 # Make short hostname only if its not an IP address
+
+alias fzf="fzf --color='bg:237,bg+:236,info:143,border:240,spinner:108' --color='hl:65,fg:252,header:65,fg+:252' --color='pointer:161,marker:168,prompt:110,hl+:108'"
+
+#source bash fzf keybindings
+eval "$(fzf --bash)"
