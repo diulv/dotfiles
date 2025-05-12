@@ -31,9 +31,9 @@ cdf() { file="$(fzf)"; [ -n "$file" ] && cd "$(dirname "$file")"; }
 #alias fzt
 alias ll='ls -alF'
 
-# set hostname of window to ssh in tmux
-# Make short hostname only if its not an IP address
-# Make short hostname only if its not an IP address
+#attach to the default session
+#check .tmux.conf for the default session configuration. the session is created when tmux runs, this then attaches to the session
+alias tm="tmux attach -t dreifachverglasung" 
 
 alias fzf="fzf --color='bg:237,bg+:236,info:143,border:240,spinner:108' --color='hl:65,fg:252,header:65,fg+:252' --color='pointer:161,marker:168,prompt:110,hl+:108'"
 
